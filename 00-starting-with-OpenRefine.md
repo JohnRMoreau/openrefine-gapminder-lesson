@@ -1,9 +1,11 @@
+---
+layout: lesson
+root: .
+title: Getting Started with Open Refine
+minutes: 
+---
 
-# Data Carpentry Open Refine Demo
-
---------------------------------------------------
-
-# Objectives
+## Learning Objectives
 
 * Motivate participants to clean, organize, enhance data before insert into a database or merging data with other data files.
 * Introduce participants to Open Refine as a powerful data-cleaning tool.
@@ -14,7 +16,7 @@
 * Show the power of clustering algorithms to reveal data patterns, data snafus
 * If time, show call to an API, a web service (JSON example here from a locality georeferencing service)
 * If time, show how to parse the JSON returned from the service.
-* Refine provides a gentle introduction to SELECT DISTINCT, COUNT, ORDER BY, GROUP BY, and other SQL concepts in a visual way. Covering Refine first provides the SQL instructor with examples to refer back to - giving the students a reference point for understanding SQL. And starting with the "better spreadsheet skills" lesson, before this Open Refine demo, gives the instructor even more analogies to use when leading up to SQL. We experimented with lesson order and this seems to work best for insuring those "aha" moments.
+* Refine provides a gentle introduction to SELECT DISTINCT, COUNT, ORDER BY, GROUP BY, and other SQL concepts in a visual way. Covering Refine first provides the SQL instructor with examples to reference - giving the students a reference point for understanding SQL. And starting with the "better spreadsheet skills" lesson, before this Open Refine demo, gives the instructor even more analogies to use when leading up to SQL. We experimented with lesson order and this seems to work best for insuring those "aha" moments.
 * Show the power of undo / redo.
 * Can be used to introduce
  - scripting
@@ -23,7 +25,7 @@
 
 ----------------------------------------------------
 
-# Motivations for the Open Refine Lesson
+## Motivations for the Open Refine Lesson
 
 * It's really important that you know what you did. More journals/grants/etc. are also making it important for them to know what you did. You can capture all steps done to your data in Open Refine to the raw file and share with your publication as supplemental material.
 * All steps are easily reversed in Refine.
@@ -32,7 +34,7 @@
 * Data cleaning steps often need repeating with multiple files. Refine is perfect for speeding up repetitive tasks.
 * Some concepts like clustering algorithms are quite complex, but Refine makes it easy to introduce them, use them, and show their power.
 
-# Before we get started
+## Before we get started
 
 * Check that you have Firefox browser installed. Open Refine runs in this browser. It will not run in IE.
 * Download software from http://openrefine.org if you have not done this yet.
@@ -42,7 +44,7 @@
 * Click the google-refine.exe file to launch Open Refine.
 * Note, this is a Java program that runs on your machine (not in the cloud). It runs inside the Firefox browser, but no web connection is needed.
 
-# Basics of Open Refine
+## Basics of Open Refine
 
 You can find out a lot more about Open Refine at http://openrefine.org and check out some great introductory videos. There is also an Open Refine Google Plus community https://plus.google.com/communities/117280693504889048168 where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
 
@@ -50,6 +52,7 @@ You can find out a lot more about Open Refine at http://openrefine.org and check
 * A large growing community, from novice to expert, ready to help.
 * Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
 
+----------------------------------------------------
 # Demo of Open Refine
 
 Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Refine will open in your Firefox browser).
@@ -106,7 +109,7 @@ _Once Refine is open, you'll be asked if you want to Create, Open, or Import a P
 
 ## Export
 
-* Save your work when you are done by exporting it in the desire format. Save your files with meaningful names, no spaces. Refine does not change your original dataset.
+* Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. Refine does not change your original dataset.
 
 #### Time estimate for this demo.
 * Takes about 20 - 30 minutes to do a good demo.
