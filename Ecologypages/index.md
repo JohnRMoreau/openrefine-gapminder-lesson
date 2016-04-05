@@ -1,14 +1,14 @@
 ---
 layout: lesson
 root: .
-lastupdated: April 4, 2016
-contributors: ["Tracy Teal", "John Moreau", "et al"]
-maintainers: ["TBD"]
-domain: "Economics and Business"
+lastupdated: August 14, 2015
+contributors: ["Deb Paul", "Tracy Teal"]
+maintainers: ["Deb Paul", "Tracy Teal"]
+domain: Ecology
 topic: OpenRefine
-software: Openrefine
-dataurl: https://github.com/JohnRMoreau/2016-04-07-FederalReserveBoard/raw/gh-pages/data/gapminder-sql-data.zip
-status: Under Development
+software:
+dataurl: https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0
+status: Teaching
 ---
 
 <!-- USING THIS LESSON TEMPLATE -->
@@ -17,7 +17,8 @@ status: Under Development
 <!-- THE LESSON INFORMATION -->
 
 
-# Data Carpentry {{ page.topic }} for {{ page.domain }}
+#Data Carpentry {{ page.topic }} for {{ page.domain }}
+=======
 
 Data Carpentry's aim is to teach researchers basic concepts, skills,
 and tools for working more effectively with data.
@@ -42,13 +43,17 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 ## Lessons:
 
 
-1. [Lesson 00 - Starting With Open Refine](00-starting-with-OpenRefine.html)
-2. More to come...
+1. [Getting Started with OpenRefine](00-getting-started.html)
+2. [Working with OpenRefine - faceting, clustering & splitting](01-working-with-openrefine.html)
+3. [Scripts](02-scripts.html)
+4. [Saving and Exporting Projects and Files](03-save-export.html)
 
+#### Optional
+- [Using Services with OpenRefine](04-services.html)
 
 ## Data
 
-Data files for the lesson are available here: ({{Gapminder Zip File %}})[{{page.dataurl %}}]
+Data files for the lesson are available here: [{{page.dataurl %}}]({{page.dataurl %}})
 
 
 ### Requirements
@@ -59,18 +64,5 @@ their own computers to insure the proper setup of tools for an efficient workflo
 through this lesson requires working copies of the software described below.
 To most effectively use these materials, please make sure to install everything
 *before* working through this lesson.
-
-
-
-
-{% if page.software == "Python" %}
-{% include pythonSetup.html %}
-{% elsif page.software == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
-{% elsif page.software == "R" %}
-{% include rSetup.html %}
-{% else %}
-{% include anySetup.html %}
-{% endif %}
 
 <p><strong>Twitter</strong>: @datacarpentry
